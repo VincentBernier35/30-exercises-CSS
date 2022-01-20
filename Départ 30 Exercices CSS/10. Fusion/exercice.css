@@ -17,7 +17,7 @@
 
 /* #1 */
 .w1 {
-
+    padding-top: 1px;
 }
 .w1 .box {
 }
@@ -25,7 +25,7 @@
 
 /* #2 */
 .w2 {
-  
+  padding-top: 200px;
 }
 .w2 .box {
 }
@@ -33,7 +33,7 @@
 
 /* #3 */
 .w3 {
-
+    display: grid;
 }
 .w3 .box {
 }

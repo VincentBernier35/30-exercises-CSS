@@ -3,19 +3,19 @@
 
 
 .p1 {
-
+    opacity: 0;
 }
 
 
 /* 2. Occultez le second paragraphe sans le rendre accessible. */
 
 .p2 {
-
+    visibility: hidden;
 }
 
 
 /* 3. Occultez le troisième paragraphe en faisant en sorte qu'il ne prenne plus d'espace et qu'on ne puisse pas cliquer dessus et qu'il ne soit plus accessible. */
 
 .p3 {
-
+    display: none;
 }

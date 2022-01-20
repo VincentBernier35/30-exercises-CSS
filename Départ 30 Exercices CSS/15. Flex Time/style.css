@@ -43,15 +43,28 @@ body {
 
 
 /* Exemple #1 */
-
-
+.a1, .a3 {
+  flex-grow: 0;
+}
+.a2 {
+  flex-grow: 1;
+}
 
 
 /* Exemple #2 */
 .containerB {
-
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
+.b1, .b2, .b4, .b5  {
+  flex-basis: 45%;
+}
+.b3 {
+  flex-basis: calc(90% + 10px);
+
+}
 
 
 
@@ -60,6 +73,14 @@ body {
 
 .containerC {
 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.c1, .c2, .c3, .c4, .c5, .c6 {
+  width: 50%;
+  height: 60px;
 }
 
 
@@ -76,3 +97,9 @@ body {
   height: 150px;
 }
 
+.d2 {
+  margin: auto;
+}
+.d3 {
+  align-self: flex-end;
+}

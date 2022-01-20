@@ -11,6 +11,8 @@
 .card {
     background: linear-gradient(45deg, violet, rgb(177, 27, 177));
     padding: 30px;
+    max-width: 1100px;
+    min-width: 300px;
 }
 .card p {
     margin-top: 5px;
@@ -27,8 +29,18 @@
     display: block;
     margin: 50px auto 0;
 }
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+    .txt-input {
+        width: 600px;
+    }
+}
 
 
 
 /* B.  Donnez une couleur de fond "crimson" à l'input seulement quand l'orientation du viewport est en mode "portrait" */
 
+@media screen and (orientation: portrait) {
+    .txt-input {
+        background: crimson;
+    }
+}
