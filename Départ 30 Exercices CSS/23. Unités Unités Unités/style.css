@@ -7,7 +7,7 @@
 /*1. Comment parvenir à rendre le site accessible pour les personnes qui zoom via les paramètres de navigateur ? */
 
 html {
-
+    font-size: 62.5%;
 }
 
 
@@ -15,7 +15,10 @@ html {
 /* 2. Donner au Body la hauteur totale de l'écran, quoiqu'il arrive et sans être relatif à autre chose qu'à l'écran */
 
 body {
+
+    height: 100vh;
     font-family: sans-serif;
+
 }
 
 
@@ -27,14 +30,15 @@ header {
   color: #222;
   text-align: center;
   font-size: 4rem;
-  padding: ;
-  margin-bottom: ;
+  padding: 10vmin;
+  margin-bottom: 8vmin ;
 }
 
 
 /* 4. Faites en sorte que le h1 ait toujours une font-size de 5% de la largeur d'écran */
 
 h1 {
+    font-size: 5vw;
     text-align: center;
 }
 
@@ -45,18 +49,18 @@ h1 {
 /* p doit faire 20px */
 
 .content {
-    font-size: ;
+    font-size: 1rem;
     max-width: 90rem;
     margin: 2rem auto 0;
     padding: 2rem;
     background: salmon;
 }
 .content h2 {
-    font-size: ;
+    font-size: 4em;
 }
 .content span {
-    font-size: ;
+    font-size: 1.6em;
 }
 .content p {
-    font-size: ;
+    font-size: 2em;
 }
